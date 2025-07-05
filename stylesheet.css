@@ -157,15 +157,6 @@ table {
   margin-bottom: -20px;
 }
 
-/* Main container with increased margins */
-body > table {
-  max-width: 900px; /* Reduced from 1000px to create more margin */
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 40px; /* Add left padding */
-  padding-right: 40px; /* Add right padding */
-}
-
 /* Publication entries */
 .publication-entry {
   display: flex;

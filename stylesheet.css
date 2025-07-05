@@ -161,16 +161,16 @@ table {
 .publication-entry {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
   padding: 20px;
   border-radius: 8px;
-  background-color: #fafafa;
+  background-color: transparent;
   transition: background-color 0.3s ease;
 }
 
 .publication-entry:hover {
-  background-color: #f5f5f5;
+  background-color: transparent;
 }
 
 .publication-image {

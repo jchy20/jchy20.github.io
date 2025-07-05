@@ -56,9 +56,6 @@
                     <td style="padding:20px;width:100%;vertical-align:middle">
                         <h2 style="line-height:2">News</h2>
                         <ul class="news-list">
-                            <li>[Date] Paper accepted at Conference Name 2024</li>
-                            <li>[Date] Received [Award/Fellowship Name]</li>
-                            <li>[Date] Presented work at [Conference/Workshop]</li>
                         </ul>
                     </td>
                 </tr>
@@ -88,9 +85,8 @@
                         <div class="publication-venue">Preprint, 2025</div>
                         <div class="publication-links">
                             <a href="https://github.com/jchy20/how-much-backtrack" target="_blank" class="badge-link code">Code</a>
+                            <button class="bibtex-toggle" onclick="toggleBibtex('bibtex1')">BibTeX</button>
                         </div>
-                        <div class="bibtex-container">
-                            <button class="bibtex-toggle" onclick="toggleBibtex('bibtex1')">Show BibTeX</button>
                             <div id="bibtex1" class="bibtex-content" style="display: none;">
                                 <pre>@misc{cai2025backtrackingenoughexploringinterplay,
 title={How Much Backtracking is Enough? Exploring the Interplay of SFT and RL in Enhancing LLM Reasoning}, 
@@ -118,9 +114,8 @@ url={https://arxiv.org/abs/2505.24273},
                         <div class="publication-venue">ICLR 2024 (Spotlight)</div>
                         <div class="publication-links">
                             <a href="https://github.com/kkkevinkkkkk/situated_faithfulness" target="_blank" class="badge-link code">Code</a>
+                            <button class="bibtex-toggle" onclick="toggleBibtex('bibtex2')">BibTeX</button>
                         </div>
-                        <div class="bibtex-container">
-                            <button class="bibtex-toggle" onclick="toggleBibtex('bibtex2')">Show BibTeX</button>
                             <div id="bibtex2" class="bibtex-content" style="display: none;">
                                 <pre>@article{Huang2024enhancing,
 title  = {Enhancing Large Language Models' Situated Faithfulness to External Contexts},
@@ -150,7 +145,7 @@ function toggleBibtex(id) {
         button.textContent = "Hide BibTeX";
     } else {
         content.style.display = "none";
-        button.textContent = "Show BibTeX";
+        button.textContent = "BibTeX";
     }
 }
 </script>

@@ -1,0 +1,334 @@
+/* Font imports */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Base styles */
+body, td, th, tr, p, a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+/* Links */
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus, a:hover {
+  color: #e57c13;
+  text-decoration: none;
+}
+
+/* Headings */
+h2 {
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 25px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+/* Name and profile section */
+.name-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.name {
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 37px;
+}
+
+.subtitle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.subtitle {
+  margin: 2px;
+  margin-left: -5px;
+}
+
+.university {
+  font-size: 17px;
+  color: #333;
+  font-weight: bold;
+  margin-top: -2px;
+}
+
+.email {
+  font-family: '-apple-system';
+  margin-top: -1px;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* Profile photo - SQUARE styling */
+.profile-photo {
+  border-radius: 0; /* Square photo - no border radius */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: scale(1.02);
+}
+
+/* Social links */
+.social-link .fa,
+.social-link .fab,
+.social-link .fa-brands {
+  color: black;
+  font-size: 21px;
+}
+
+.social-link {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #f09228;
+  text-decoration: underline;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  margin-bottom: -20px;
+}
+
+/* Publication entries */
+.publication-entry {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fafafa;
+  transition: background-color 0.3s ease;
+}
+
+.publication-entry:hover {
+  background-color: #f5f5f5;
+}
+
+.publication-image {
+  width: 180px;
+  height: auto;
+  margin-right: 30px;
+  margin-left: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.publication-details {
+  flex: 1;
+}
+
+.publication-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.publication-authors {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-style: italic;
+  color: #666666;
+}
+
+.publication-venue {
+  font-size: 16px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  color: #333;
+}
+
+.publication-links {
+  margin-bottom: 15px;
+}
+
+/* Badge-like style for links */
+.badge-link {
+  display: inline-block;
+  padding: 4px 8px;
+  margin-right: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.badge-link:hover {
+  opacity: 0.9;
+}
+
+.badge-link.website {
+  background-color: #b60101;
+}
+
+.badge-link.paper {
+  background-color: #043a8d;
+}
+
+.badge-link.code {
+  background-color: #ef8041;
+}
+
+/* BibTeX styling */
+.bibtex-container {
+  margin-top: 15px;
+}
+
+.bibtex-toggle {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bibtex-toggle:hover {
+  background-color: #5a6268;
+}
+
+.bibtex-content {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.4;
+  overflow-x: auto;
+}
+
+.bibtex-content pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* News section */
+.news-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.news-list li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.news-list li:before {
+  content: "•";
+  color: #1772d0;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .publication-entry {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .publication-image {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 150px;
+  }
+  
+  .name {
+    font-size: 28px;
+  }
+  
+  .publication-title {
+    font-size: 16px;
+  }
+}
+
+/* Body layout */
+body {
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  transform-origin: center;
+  overflow-x: hidden;
+}
+
+li:not(:last-child) {
+  margin-bottom: 2px;
+} 

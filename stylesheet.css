@@ -127,6 +127,8 @@ h2 {
   border-radius: 0; /* Square photo - no border radius */
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
   transition: transform 0.3s ease;
+  width: 70%; /* Make profile photo smaller */
+  max-width: 200px; /* Set maximum width */
 }
 
 .profile-photo:hover {

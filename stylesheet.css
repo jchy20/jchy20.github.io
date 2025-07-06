@@ -187,7 +187,7 @@ table {
 }
 
 .publication-title {
-  font-size: 25px !important;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -225,7 +225,7 @@ table {
   margin-right: 5px;
   border-radius: 4px;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   color: white;
   transition: background-color 0.3s ease;
@@ -259,6 +259,7 @@ table {
   padding: 4px 12px;
   border-radius: 4px;
   font-size: 12px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -275,7 +276,6 @@ table {
   border-radius: 4px;
   font-family: 'Courier New', monospace;
   font-size: 13px;
-  font-weight: bold;
   line-height: 1.4;
   overflow-x: auto;
 }
@@ -325,7 +325,7 @@ table {
   }
   
   .publication-title {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 

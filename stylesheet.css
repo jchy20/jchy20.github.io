@@ -192,6 +192,18 @@ table {
   margin-bottom: 8px;
 }
 
+.publication-title a {
+  font-size: inherit;
+  font-weight: inherit;
+  color: #1772d0;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  color: #e57c13;
+  text-decoration: none;
+}
+
 .publication-authors {
   font-size: 16px;
   margin-bottom: 8px;
@@ -224,8 +236,8 @@ table {
   padding: 4px 8px;
   margin-right: 5px;
   border-radius: 4px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 13px;
+  font-weight: bold;
   text-decoration: none;
   color: white;
   transition: background-color 0.3s ease;
@@ -239,12 +251,12 @@ table {
   background-color: #b60101;
 }
 
-.badge-link.paper {
-  background-color: #043a8d;
+.badge-link.code {
+  background-color: #c161eb;
 }
 
-.badge-link.code {
-  background-color: #ef8041;
+.badge-link.bibtex {
+  background-color: #3985c7;
 }
 
 /* BibTeX styling */

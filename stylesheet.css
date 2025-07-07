@@ -245,6 +245,7 @@ table {
 
 .badge-link:hover {
   opacity: 0.9;
+  color: #010001; /* Change to any color you want - this is gold */
 }
 
 .badge-link.website {
@@ -339,6 +340,12 @@ table {
   .publication-title {
     font-size: 20px;
   }
+}
+
+/* Introduction paragraphs */
+.intro-paragraph {
+  font-size: 17px; /* Increased from default 15px */
+  line-height: 1.5;
 }
 
 /* Body layout */

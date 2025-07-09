@@ -348,6 +348,10 @@ table {
   line-height: 1.5;
 }
 
+.intro-paragraph a {
+  font-size: inherit; /* Inherit font size from parent paragraph */
+}
+
 /* Body layout */
 body {
   justify-content: center;

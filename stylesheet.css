@@ -58,6 +58,15 @@ strong {
   font-size: 15px;
 }
 
+/* Fix superscript alignment */
+sup {
+  vertical-align: super;
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  top: -0.5em;
+}
+
 /* Links */
 a {
   color: #1772d0;
